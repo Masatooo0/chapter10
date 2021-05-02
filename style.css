@@ -10,15 +10,15 @@ header {
   background-color: #ff9a4b;
 }
 
-main{
+main {
   width: 960px;
   margin: 50px auto;
   display: flex;
 }
 .box {
   width: 300px;
-  background-color: #EEEEEE;
-  padding:10px;
+  background-color: #eeeeee;
+  padding: 10px;
   position: relative;
 }
 .box:nth-child(2) {
@@ -27,31 +27,31 @@ main{
 }
 .step {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   background-color: #ff9a4b;
   color: #fff;
 }
-.image-1{
+.image-1 {
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }
-.image-2{
+.image-2 {
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
 }
-.image-3{
+.image-3 {
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
 }
-h3{
-  margin-top:15px;
+h3 {
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 
@@ -61,20 +61,17 @@ footer {
   background-color: #aaaaaa;
 }
 
-
 /* レスポンシブデザイン */
-@media screen and (max-width: 768px)  {
-  main{
-    width:100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
     display: block;
   }
-  .box{
+  .box {
     width: 90%;
-    margin:10px auto;
+    margin: 20px auto;
   }
-  .box:nth-child(2){
+  .box:nth-child(2) {
     margin: 0 auto;
   }
 }
